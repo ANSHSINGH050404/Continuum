@@ -1,6 +1,16 @@
 # Continuum 🌌
 
-Continuum is a universal application suite built with modern web and mobile technologies. It features a cross-platform mobile application powered by **Expo** and a high-performance landing page built with **Next.js**.
+Continuum is a privacy-first, personalized AI assistant application built with modern web and mobile technologies. It empowers users to create a tailored AI experience by leveraging their own OpenAI API keys and maintaining a persistent local "memory" of their professional and personal context.
+
+---
+
+## 🚀 Key Features
+
+- **Personalized AI Memory:** Captures and stores user-specific details (interests, goals, profession) to provide highly relevant assistance.
+- **Contextual Conversation Threads:** Manage multiple chats categorized by intent (Work, Creative, Study, etc.).
+- **User-Owned AI:** Full control over your data and costs by using your own OpenAI API key.
+- **Privacy First:** Sensitive data, including API keys and conversation history, is stored locally on-device.
+- **Customizable Experience:** Fine-tune the AI's personality, response style, and conversation length.
 
 ---
 
