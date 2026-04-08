@@ -1,50 +1,86 @@
-# Welcome to your Expo app 👋
+# Continuum 🌌
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Continuum is a universal application suite built with modern web and mobile technologies. It features a cross-platform mobile application powered by **Expo** and a high-performance landing page built with **Next.js**.
 
-## Get started
+---
 
-1. Install dependencies
+## 🏗️ Project Structure
 
+- **`/` (Root)**: The core [Expo](https://expo.dev) mobile application (Android, iOS, Web).
+- **`/landing-page`**: A [Next.js](https://nextjs.org) marketing site for the application.
+
+---
+
+## 📱 Mobile Application (Expo)
+
+The mobile app utilizes **Expo Router** for file-based navigation and **NativeWind** (Tailwind CSS) for styling.
+
+### Getting Started
+
+1. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. **Start the development server:**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. **Open the app:**
+   - Scan the QR code with the **Expo Go** app (Android/iOS).
+   - Press `a` for Android Emulator.
+   - Press `i` for iOS Simulator.
+   - Press `w` for Web.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Key Technologies
+- **Expo SDK 54**
+- **React Native 0.81**
+- **NativeWind (Tailwind CSS)**
+- **Expo Router**
+- **Lucide Icons**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🌐 Landing Page (Next.js)
 
-When you're ready, run:
+The landing page is a modern, responsive web application built with Next.js 15, Tailwind CSS 4, and Radix UI components.
 
-```bash
-npm run reset-project
-```
+### Getting Started
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. **Navigate to the directory:**
+   ```bash
+   cd landing-page
+   ```
 
-## Learn more
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Key Technologies
+- **Next.js 15 (App Router)**
+- **Tailwind CSS 4**
+- **Radix UI**
+- **Lucide React**
+- **Shadcn UI** (Components in `/modules`)
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 🛠️ Development
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Recommended Tools
+- **VS Code** with Expo and Tailwind CSS extensions.
+- **Android Studio** for Android emulation.
+- **Xcode** for iOS emulation (macOS only).
+
+---
+
+## 📄 License
+
+Refer to the project's license documentation for more details.
