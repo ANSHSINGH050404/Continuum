@@ -1,96 +1,25 @@
-# Continuum 🌌
+# Continuum
 
-Continuum is a privacy-first, personalized AI assistant application built with modern web and mobile technologies. It empowers users to create a tailored AI experience by leveraging their own OpenAI API keys and maintaining a persistent local "memory" of their professional and personal context.
+Continuum — continuous workflow / agent platform experiments.
 
----
+## Stack
 
-## 🚀 Key Features
+TypeScript
 
-- **Personalized AI Memory:** Captures and stores user-specific details (interests, goals, profession) to provide highly relevant assistance.
-- **Contextual Conversation Threads:** Manage multiple chats categorized by intent (Work, Creative, Study, etc.).
-- **User-Owned AI:** Full control over your data and costs by using your own OpenAI API key.
-- **Privacy First:** Sensitive data, including API keys and conversation history, is stored locally on-device.
-- **Customizable Experience:** Fine-tune the AI's personality, response style, and conversation length.
+## Getting started
 
----
+```bash
+git clone https://github.com/ANSHSINGH050404/Continuum.git
+cd Continuum
+npm install
+npm run dev   # or: npm start
+```
 
-## 🏗️ Project Structure
+## Repository
 
-- **`/` (Root)**: The core [Expo](https://expo.dev) mobile application (Android, iOS, Web).
-- **`/landing-page`**: A [Next.js](https://nextjs.org) marketing site for the application.
+- **GitHub:** https://github.com/ANSHSINGH050404/Continuum
+- **Author:** [ANSHSINGH050404](https://github.com/ANSHSINGH050404)
 
----
+## License
 
-## 📱 Mobile Application (Expo)
-
-The mobile app utilizes **Expo Router** for file-based navigation and **NativeWind** (Tailwind CSS) for styling.
-
-### Getting Started
-
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-2. **Start the development server:**
-   ```bash
-   npx expo start
-   ```
-
-3. **Open the app:**
-   - Scan the QR code with the **Expo Go** app (Android/iOS).
-   - Press `a` for Android Emulator.
-   - Press `i` for iOS Simulator.
-   - Press `w` for Web.
-
-### Key Technologies
-- **Expo SDK 54**
-- **React Native 0.81**
-- **NativeWind (Tailwind CSS)**
-- **Expo Router**
-- **Lucide Icons**
-
----
-
-## 🌐 Landing Page (Next.js)
-
-The landing page is a modern, responsive web application built with Next.js 15, Tailwind CSS 4, and Radix UI components.
-
-### Getting Started
-
-1. **Navigate to the directory:**
-   ```bash
-   cd landing-page
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-
-### Key Technologies
-- **Next.js 15 (App Router)**
-- **Tailwind CSS 4**
-- **Radix UI**
-- **Lucide React**
-- **Shadcn UI** (Components in `/modules`)
-
----
-
-## 🛠️ Development
-
-### Recommended Tools
-- **VS Code** with Expo and Tailwind CSS extensions.
-- **Android Studio** for Android emulation.
-- **Xcode** for iOS emulation (macOS only).
-
----
-
-## 📄 License
-
-Refer to the project's license documentation for more details.
+See repository for license details (or add an MIT license if this is open source).
